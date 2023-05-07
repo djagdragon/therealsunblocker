@@ -20,9 +20,9 @@ const tips = [
     'Modify Inc&#173;ogni&#173;tos appearance & browser tab in <a href="#settings">settings.</a>',
     'You can enable about:blank tab cloaking in <a href="#settings">settings.</a>',
     'Access popular media & sites easily in <a href="#apps">apps.</a>',
-    'This <a href="https://github.com/amethystnetwork-dev/Incognito">unofficial In&#173;cog&#173;nito version</a> is made by Am&#173;et&#173;hy&#173;st Net&#173;wo&#173;rk.',
-    'Join the <a href="#community">Am&#173;et&#173;hyst Ne&#173;tw&#173;ork d&#173;i&#173;sco&#173;rd</a>',
-    'Get answers to questions in <a href="#support">support</a>',
+    'i made it faster too',
+    'i dont care what u do but dont use it for weird things',
+    'thanks for using my proxy',
     `Check out <a onclick="(${ah.toString()})()">Ali&#173;enHu&#173;b</a>`
 ];
 
@@ -47,7 +47,7 @@ function access(app) {
     app.search.logo.style.marginLeft = '0';
     app.search.submit.style.display = 'inline';
     app.search.input.style.removeProperty('display');
-    app.search.input.placeholder = 'Search the web';
+    app.search.input.placeholder = 'put ur dam url in';
     app.header.target.setAttribute('data-page', '');
     app.nav.target.style.removeProperty('display');
     document.querySelector('#open-nav').setAttribute('data-open', '');
